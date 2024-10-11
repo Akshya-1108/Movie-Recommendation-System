@@ -1,2 +1,19 @@
-# Movie-Recommendation-System
-This project implements a movie recommendation system in Google Colab using Pandas, Surprise for collaborative filtering, and Scikit-learn for content-based filtering. It uses the MovieLens dataset to provide personalized movie suggestions based on user preferences and movie features.
+# Movie Recommendation System
+
+This project implements a **Movie Recommendation System** using both **collaborative filtering** and **content-based filtering** techniques. The goal of this project is to recommend movies to users based on their preferences, past ratings, and movie attributes such as genre, description, etc.
+
+## Features
+
+- **Content-Based Filtering**: Utilizes **TF-IDF** vectorization and **cosine similarity** to recommend movies that are similar in terms of metadata (e.g., genre, descriptions).
+- **Hybrid Model**: Combines both content-based and collaborative filtering techniques for improved accuracy and user satisfaction.
+
+## Libraries Used
+
+- **Pandas**: For data loading, manipulation, and preprocessing.
+- **Surprise**: For collaborative filtering and SVD-based recommendation system.
+- **Scikit-learn**: For implementing content-based filtering, including TF-IDF vectorization and cosine similarity.
+- **NumPy**: For efficient numerical computations.
+
+## Dataset
+
+This project uses the [MovieLens dataset](https://grouplens.org/datasets/movielens/) (or another dataset depending on your project). The dataset includes information such as movie titles, genres, and user ratings.
