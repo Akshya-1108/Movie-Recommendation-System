@@ -14,4 +14,4 @@ This project implements a **Movie Recommendation System** using both **collabora
 
 ## Dataset
 
-This project uses the [Movie dataset](https://raw.githubusercontent.com/YBI-Foundation/Dataset/a6bcba4b6f9b87d8f924df1dacad300785571cfe/Movies%20Recommendation.csv) (or another dataset depending on your project). The dataset includes information such as movie titles, genres, and user ratings.
+This project uses the [Movie dataset](https://raw.githubusercontent.com/YBI-Foundation/Dataset/a6bcba4b6f9b87d8f924df1dacad300785571cfe/Movies%20Recommendation.csv) . The dataset includes information such as movie titles, genres, and user ratings.
