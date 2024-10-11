@@ -5,12 +5,10 @@ This project implements a **Movie Recommendation System** using both **collabora
 ## Features
 
 - **Content-Based Filtering**: Utilizes **TF-IDF** vectorization and **cosine similarity** to recommend movies that are similar in terms of metadata (e.g., genre, descriptions).
-- **Hybrid Model**: Combines both content-based and collaborative filtering techniques for improved accuracy and user satisfaction.
 
 ## Libraries Used
 
 - **Pandas**: For data loading, manipulation, and preprocessing.
-- **Surprise**: For collaborative filtering and SVD-based recommendation system.
 - **Scikit-learn**: For implementing content-based filtering, including TF-IDF vectorization and cosine similarity.
 - **NumPy**: For efficient numerical computations.
 
